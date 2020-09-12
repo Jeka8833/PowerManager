@@ -37,7 +37,6 @@ LRESULT CALLBACK WndProc(HWND window, UINT message, WPARAM wParam, LPARAM lParam
 		switch (lParam) {
 		case WM_RBUTTONUP:
 			HMENU hMenu = CreatePopupMenu();
-			if(Core::currentProfile < Config::config.count_Profiles && Core::currentProfile >= 0)
 			AppendMenuA(hMenu, MF_STRING | MF_GRAYED, 0, ("Active: " + Config::config.profiles[Core::currentProfile].name).c_str());
 			AppendMenuA(hMenu, MF_SEPARATOR, 0, NULL);
 
@@ -52,7 +51,7 @@ LRESULT CALLBACK WndProc(HWND window, UINT message, WPARAM wParam, LPARAM lParam
 			if (Config::config.enable_Triggers)
 				AppendMenuA(hMenu, MF_STRING | MF_CHECKED, BTN_ENABLE_TRIGGERS, "Enable triggers");
 			else
-				AppendMenuA(hMenu, MF_STRING | MF_UNCHECKED, BTN_ENABLE_TRIGGERS, "Enable triggers");
+				AppendMenuA(hMenu, MF_STRING, BTN_ENABLE_TRIGGERS, "Enable triggers");
 			AppendMenuA(hMenu, MF_SEPARATOR, 0, NULL);
 			AppendMenuA(hMenu, MF_STRING, BTN_RUN, "Run k15tk");
 			AppendMenuA(hMenu, MF_STRING, BTN_UPDATE, "Force update");

@@ -64,17 +64,6 @@ void Core::triggerLoop() {
 				}
 			}
 		}
-		/*if (priority == 0) {
-			currentProfile = Config::config.active_Profile;
-		}
-		else {
-			if (priority < 0 || index < Config::config.active_Profile) {
-				currentProfile = index;
-			}
-			else {
-				currentProfile = Config::config.active_Profile;
-			}
-		}*/
 		currentProfile = priority == 0 ? Config::config.active_Profile : priority < 0 || index < Config::config.active_Profile ? index : Config::config.active_Profile;
 		useProfile(false);
 		Sleep(Config::config.trigger_Tick);
