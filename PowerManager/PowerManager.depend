@@ -1,0 +1,192 @@
+# depslib dependency file v1.0
+1599671382 source:c:\users\jeka8833\source\repos\powermanager\powermanager\resource.rc
+	"resource.h"
+	"winres.h"
+
+1599671382 c:\users\jeka8833\source\repos\powermanager\powermanager\resource.h
+
+1599761293 source:c:\users\jeka8833\source\repos\powermanager\powermanager\config.cpp
+	"Config.h"
+
+1599761293 c:\users\jeka8833\source\repos\powermanager\powermanager\config.h
+	<string>
+	<codecvt>
+	<iostream>
+	<fstream>
+	<filesystem>
+	"rapidjson/writer.h"
+	"rapidjson/stringbuffer.h"
+	"rapidjson/filereadstream.h"
+	"rapidjson/document.h"
+	"Core.h"
+	"Profile.h"
+	"Trigger.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\writer.h
+	"stream.h"
+	"internal/clzll.h"
+	"internal/meta.h"
+	"internal/stack.h"
+	"internal/strfunc.h"
+	"internal/dtoa.h"
+	"internal/itoa.h"
+	"stringbuffer.h"
+	<new>
+	<intrin.h>
+	<nmmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\stream.h
+	"rapidjson.h"
+	"encodings.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\rapidjson.h
+	<cstdlib>
+	<cstring>
+	"rapidjson/..."
+	<string>
+	"msinttypes/stdint.h"
+	"msinttypes/inttypes.h"
+	<stdint.h>
+	<inttypes.h>
+	<endian.h>
+	"rapidjson/..."
+	<cassert>
+	<cassert>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\msinttypes\stdint.h
+	<stdint.h>
+	<limits.h>
+	<wchar.h>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\msinttypes\inttypes.h
+	"stdint.h"
+	<inttypes.h>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\encodings.h
+	"rapidjson.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\clzll.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\meta.h
+	"../rapidjson.h"
+	<type_traits>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\stack.h
+	"../allocators.h"
+	"swap.h"
+	<cstddef>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\allocators.h
+	"rapidjson.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\swap.h
+	"../rapidjson.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\strfunc.h
+	"../stream.h"
+	<cwchar>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\dtoa.h
+	"itoa.h"
+	"diyfp.h"
+	"ieee754.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\itoa.h
+	"../rapidjson.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\diyfp.h
+	"../rapidjson.h"
+	"clzll.h"
+	<limits>
+	<intrin.h>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\ieee754.h
+	"../rapidjson.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\stringbuffer.h
+	"stream.h"
+	"internal/stack.h"
+	<utility>
+	"internal/stack.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\filereadstream.h
+	"stream.h"
+	<cstdio>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\document.h
+	"reader.h"
+	"internal/meta.h"
+	"internal/strfunc.h"
+	"memorystream.h"
+	"encodedstream.h"
+	<new>
+	<limits>
+	<compare>
+	<iterator>
+	<utility>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\reader.h
+	"allocators.h"
+	"stream.h"
+	"encodedstream.h"
+	"internal/clzll.h"
+	"internal/meta.h"
+	"internal/stack.h"
+	"internal/strtod.h"
+	<limits>
+	<intrin.h>
+	<nmmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<stdexcept>
+	"rapidjson/error/error.h"
+	"rapidjson/reader.h"
+	"error/error.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\encodedstream.h
+	"stream.h"
+	"memorystream.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\memorystream.h
+	"stream.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\strtod.h
+	"ieee754.h"
+	"biginteger.h"
+	"diyfp.h"
+	"pow10.h"
+	<climits>
+	<limits>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\biginteger.h
+	"../rapidjson.h"
+	<intrin.h>
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\internal\pow10.h
+	"../rapidjson.h"
+
+1596766342 c:\users\jeka8833\source\repos\powermanager\powermanager\rapidjson\error\error.h
+	"../rapidjson.h"
+
+1599769280 c:\users\jeka8833\source\repos\powermanager\powermanager\core.h
+	<Windows.h>
+	<filesystem>
+	<string>
+	<thread>
+	<atomic>
+	<regex>
+	"Profile.h"
+	"Config.h"
+	<Psapi.h>
+	<powrprof.h>
+
+1599723029 c:\users\jeka8833\source\repos\powermanager\powermanager\profile.h
+	<string>
+
+1599723181 c:\users\jeka8833\source\repos\powermanager\powermanager\trigger.h
+	<string>
+

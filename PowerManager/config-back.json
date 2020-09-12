@@ -1,0 +1,27 @@
+{
+    "ActiveProfile": 0,
+    "ActiveTrigger": true,
+    "TriggerSleep": 3000,
+    "profiles": [{
+            "Name": "Max",
+            "PowerPlan": "8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c",
+            "PresetPath": "preset/Max.cfg"
+        }, {
+            "Name": "Chill",
+            "PowerPlan": "8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c",
+            "PresetPath": "preset/Chill.cfg"
+        }, {
+            "Name": "Video",
+            "PowerPlan": "8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c",
+            "PresetPath": "preset/VideoPreset.cfg"
+        }
+    ],
+    "triggers": [{
+            "Profile": 0,
+            "Priority": -1,
+            "FullScreen": true,
+            "FileName": "chrome\\.exe",
+            "Title": ""
+        }
+    ]
+}
