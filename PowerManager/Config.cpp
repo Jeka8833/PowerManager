@@ -4,6 +4,7 @@ Config Config::config = Config();
 
 Config::Config() {
 	read();
+	Core::currentProfile = active_Profile;
 	Core::updateTriggerThread();
 	Core::useProfile(true);
 }

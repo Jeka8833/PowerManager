@@ -7,14 +7,14 @@ std::atomic_bool Core::isRunning = false;
 std::atomic_bool Core::forceStop = false;
 
 void Core::updateTriggerThread() {
-	if (isRunning == Config::config.enable_Triggers)
-		return;
-	if (Config::config.enable_Triggers) {
-		std::thread thread(triggerLoop);
-		thread.detach();
-	}
-	else {
-		forceStop = true;
+	if (isRunning == Config::config.enable_Triggers) {
+		if (Config::config.enable_Triggers) {
+			std::thread thread(triggerLoop);
+			thread.detach();
+		}
+		else {
+			forceStop = true;
+		}
 	}
 }
 
